@@ -22,6 +22,11 @@ body {
     right: 0;
 }
 
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+
 /* @media (max-width:768px ) {
     body {
         background-size:auto;
@@ -47,7 +52,7 @@ header .header-icon-container {
     height: 50px;
     display: grid;
     /* background-color:#47cfac ; */
-    background-color: rgba(207, 193, 71, 0.2);
+    background-color: rgba(207, 193, 71, 0.4);
     border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
 }
 
@@ -106,7 +111,7 @@ nav .nav-logo-container {
  }
 
 nav .nav-logo {
-    max-width: 80px;
+    max-width: 100px;
     margin-top: 10px;
 }
 
@@ -167,6 +172,7 @@ nav .profile-link a {
 
 .blogs-main {
     display: grid;
+    margin-top: 35px;
 }
 
 .blogs-news-container {
@@ -212,4 +218,39 @@ nav .profile-link a {
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 12px;
+}
+
+.blogs-posts-container .posts-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: rgba(230, 233, 237, 0.5);
+    border-radius: 15px;
+}
+
+.blogs-posts-container .posts-container p {
+    margin-bottom: 35px;
+}
+.posts-container {
+    padding: 5px 10px;
+}
+
+.blogs-posts-container .posts-container img {
+    max-width:100%;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 80px auto;
+    background-color: #22272d ;
+    border-top: 35px solid  rgba(71, 107, 207, 0.3);
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 30px;
 }
