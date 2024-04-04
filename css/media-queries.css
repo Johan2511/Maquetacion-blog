@@ -13,10 +13,25 @@
     .blogs-posts-container .posts-container {
         max-width: 45%;
     }
+
+    .contact-main-container {
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: 2fr;
+    }
+
+    .profile-main-container .profile-container {
+        display: block;
+    }
+
 }
 
 @media (max-width: 600px ) {
     .blogs-posts-container .posts-container {
         max-width: 95%;
     }
+    /* .contact-main-container {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    } */
 }
